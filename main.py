@@ -29,7 +29,7 @@ async def query_ai(text: str) -> str:
         with GigaChat(
             credentials=GIGACHAT_AUTH_KEY,
             scope="GIGACHAT_API_PERS",  # Версия API для физлиц
-            verify_ssl_certs=False,  # Отключение проверки SSL, в продакшене рекомендуется установить сертификат НУЦ Минцифры
+            verify_ssl_certs=False,  
             model="GigaChat-Pro"  # Явно указываем использование модели GigaChat-Pro
         ) as giga:
             response = giga.chat(prompt)
