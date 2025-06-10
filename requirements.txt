@@ -1,0 +1,4 @@
+aiogram>=3.0.0
+aiohttp>=3.8.0
+gigachat>=0.1.39
+certifi>=2023.7.22 
