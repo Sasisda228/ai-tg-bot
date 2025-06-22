@@ -7,7 +7,7 @@ from aiogram.types import Message
 from gigachat import GigaChat
 
 # Токены
-BOT_TOKEN = "7738648766:AAHcXsUWJDYHpUSnBXEtAtJjsGG_GAPpUA0"
+BOT_TOKEN = "7667389788:AAEzod7Bmqj3DOKaBSkQWI_o1n_Oez1rdvU"
 GIGACHAT_AUTH_KEY = "NjllM2E5NDktZTFiNC00YjMyLWE2ZDgtMDk0MWQ2MmJhNjMyOjc0YzlkNTQ4LWUzYzctNDM4Zi04MjkwLTVhNjQzNjdkMDE2OA=="  # Ключ авторизации из личного кабинета
 
 bot = Bot(token=BOT_TOKEN)
